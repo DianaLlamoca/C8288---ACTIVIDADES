@@ -54,3 +54,37 @@ Dentro del archivo [zipcode].ts, lo que se está haciendo es lo siguiente:
 Para acceder a la api definida mediante una ruta dinámica, usamos la sintaxis "api/[zipcode]", donde zipcode es el valor especificado en la url dinámica:
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_7.JPG)
+
+------
+
+# 3) CREANDO LAS RUTAS DE PÁGINAS
+
+## Página "/hello"
+
+Se creará un página que se accederá mediante "/hello", pues se está creando un archivo directamente dentro del directorio "pages":
+
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_8.JPG)
+
+En este código se realiza lo siguiente:
+* Primero se importa el tipo NextPage para indicar que es una página de NextJS, de tal forma que se puedan incluir propiedades específicas de las páginas de NextJS como getStaticProps, etc
+* Luego, se importan componentes esécíficos de NextJS, como el componente Head, Link, Image que servirán para definir los elementos de la página.
+* La página mostrará un link que redireccionará a la ruta relativa "/components/weather" que se definirá dentro del directorio "pages" y que mostrará el componente creado en el archivo "weather.tsx" al clickear sobre el link.
+* Finalmente, se exporta el componente para que este pueda ser visualizado al ir a la ruta "/hello" que mostrará la página.
+
+  ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_9.JPG)
+
+## Página "/components/weather":
+
+Se crea una carpeta "components" dentro del directorio "pages". De tal forma que cuando se va a acceder a esa página, se debe usar la ruta "/components/weather":
+
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_10.JPG)
+
+Dentro de este archivo, se realizará lo siguiente:
+* Se importa el tipo NextPage para indicar que es una página de NextJS.
+* Se define la interfaz para definir la estructura que deben tener los "props" que recibirá el componente Weather.
+* Dentro del componente, se usarán los hooks useState y useEffect. useEffect se usará para establecer un contador, dicho contador se actualizará cada que se haga click sobre el h1 elemento mediante la función setcount.
+* El hook useEffect se implementará para que al renderizarse por primera vez la página, la variable "count" (que inicialmente es cero) se actualice al valor de 1.
+* El componente retorna un JSX que tiene elementos <h1>, de tal forma que al dar click sobre ese elemento se actualizará la variable "count" agregándole +1 al valor. Además, se mostrará el valor "weather" de la prop que se le pasa al componente mediante return (<WeatherComponent weather="sunny"/>.
+* Finalmente, se exporta el componente para poder visualizar la página.
+
+  ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_11.JPG)
