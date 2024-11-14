@@ -29,3 +29,9 @@ Dentro de este archivo, se realizará lo siguiente:
 * Se envía, finalmente, el status code 200, indicando que la solicitud fue procesada correctamente, y posteriormente se envía el arreglo de datos.
   
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_3.JPG)
+
+----
+
+Ahora, para solicitar datos a la API que se ha creado, se usará el endpoint "/api/names/names":
+
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_4.JPG)
