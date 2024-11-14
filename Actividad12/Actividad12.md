@@ -72,7 +72,10 @@ Uso "__dirname" para obtener la ruta del directorio más el nombre del archivo q
 
 Luego, creo una ruta, que empleará el método post para poder recibir los datos enviados en el formulario definido en el archivo html.
 
-En el archivo html definí la ruta del servidor donde se enviarán los datos, así como el método. En este caso, "post", puesto que la ruta "/saludar" emplea dicho método.
+En el archivo html definí la ruta del servidor donde se enviarán los datos, así como el método.
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I20.JPG)
+
+En este caso, "post", puesto que la ruta "/saludar" emplea dicho método.
 Lo que hago en app.post("/saludar") es obtener los datos mediante el body de la solicitud, y uso la desestructuración de objetos, ya que en el elemento html, definí name="nombre", de tal forma que el dato se almacenará en un objeto de propiedad "nombre".
 Y luego establezco el tipo de respuesta del servidor al cliente mediante .set para posteriormente mandar una respuesta al cliente con los datos que se obtuvieron del body de la solicitud:
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I16.JPG?raw=true)
