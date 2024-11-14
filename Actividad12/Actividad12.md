@@ -42,3 +42,7 @@ Definiendo parámetros de consulta:
 
 Los parámetros de consulta se definen luego de "?" en la URL:
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11_.JPG)
+
+========
+
+# GESTIÓN DE ENCABEZADOS
