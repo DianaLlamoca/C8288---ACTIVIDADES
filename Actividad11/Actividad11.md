@@ -51,6 +51,6 @@ Dentro del archivo [zipcode].ts, lo que se está haciendo es lo siguiente:
  
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11_6.JPG)
 
-Para acceder a la api que contendrá una ruta dinámica, usamos la sintaxis "api/[zipcode]", donde zipcode es el valor especificado en la url dinámica:
+Para acceder a la api definida mediante una ruta dinámica, usamos la sintaxis "api/[zipcode]", donde zipcode es el valor especificado en la url dinámica:
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_7.JPG)
