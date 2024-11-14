@@ -1,5 +1,5 @@
 # 1) Renderizando una plantilla
-Acá estoy usando una plantilla, y que se usará ejs como el otor de plantillas.
+Acá estoy usando una plantilla, y se usará ejs como el motor de plantillas.
    
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I1.JPG)
 
