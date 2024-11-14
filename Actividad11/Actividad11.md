@@ -35,3 +35,21 @@ Dentro de este archivo, se realizará lo siguiente:
 Ahora, para solicitar datos a la API que se ha creado, se usará el endpoint "/api/names/names":
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_4.JPG)
+
+-----
+
+## Para la ruta dinámica "/api/[zipcode]"
+Para definir rutas dinámicas, se emplean los corchetes "[]"
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_5.JPG)
+
+Dentro del archivo [zipcode].ts, lo que se está haciendo es lo siguiente:
+* Se define el tipo de respuesta que enviará el servidor al cliente cada que realiza una solicitud al endpoint "/api/[zipcode]", donde zipcode puede tomar cualquier valor definida en la ruta dinámica. Es decir, "/api/1", etc...
+* Luego, se crea una función handler de solicitudes, que devolverá una respuesta del tipo especificado.
+* Para acceder al parámetro dinámico de la ruta, se usa req.query, pues en routes, NextJS agrupa, ya sean parámetros de ruta o de consulta dentro del objeto "req.query". Para acceder al valor de zipcode, se accede directamente a la propiedad: "req.query.zipcde".
+* Finalmente, se devuelve una respuesta de tipo json que tiene las propiedades "zipcode", "weather", "temp":
+ 
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11_6.JPG)
+
+Para acceder a la api que contendrá una ruta dinámica, usamos la sintaxis "api/[zipcode]", donde zipcode es el valor especificado en la url dinámica:
+
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_7.JPG)
