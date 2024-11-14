@@ -33,7 +33,7 @@ Los resolvers son funciones que implementan el esquema. Debido a que en el esque
 objetos específicos tanto para realizar consultas como para devolver valores (consultas y mutaciones, respectivamente),
 cada función resolver se asignará a un campo. De tal manera que los resolvers de consulta se encarguen de realizar la lectura
 de datos (similar al método GET en REST), mientras que los resolvers de mutación implementarán las funcionalidades CRUD (similares
-a las operaciónes POST,PUT,DELETE,etc...)
+a los métodos POST,PUT,DELETE,etc...)
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A13_4.JPG)
 
