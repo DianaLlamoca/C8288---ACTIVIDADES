@@ -38,7 +38,7 @@ Como el parámetro es opcional, y es un parámetro de ruta, se accede a dicho va
 
 # 5) Parámetros de consulta
 Definiendo parámetros de consulta:
-![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I10.JPG)
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I10_.JPG)
 
 Los parámetros de consulta se definen luego de "?" en la URL:
-![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11.JPG)
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11_.JPG)
