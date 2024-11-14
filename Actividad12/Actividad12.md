@@ -73,6 +73,7 @@ Uso "__dirname" para obtener la ruta del directorio más el nombre del archivo q
 Luego, creo una ruta, que empleará el método post para poder recibir los datos enviados en el formulario definido en el archivo html.
 
 En el archivo html definí la ruta del servidor donde se enviarán los datos, así como el método.
+
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I20.JPG)
 
 En este caso, "post", puesto que la ruta "/saludar" emplea dicho método.
