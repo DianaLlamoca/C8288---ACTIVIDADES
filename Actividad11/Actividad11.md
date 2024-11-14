@@ -24,7 +24,7 @@ Dentro de este archivo, se realizará lo siguiente:
 
 * Luego, una vez que se obtiene una respuesta a la solicitud del cliente, se obtiene la response en formato "json" y se usa aserción de tipo para asegurarnos de que la respuesta sea del tipo esperado.
 
-* En caso haya un error por parte del servidor al momento de realizar la solicitud. se enviará el código 500 como respuesta al cliente; de lo contrario, se procede a crear un arreglo de objetos "names" donde cada elemento tendrá las propiedades "id" y "name", pues ese tipo de dato es que el se enviará como respuesta al servidor.
+* En caso haya un error por parte del servidor al momento de realizar la solicitud, se enviará el código 500 como respuesta al cliente; de lo contrario, se procede a crear un arreglo de objetos "names" donde cada elemento tendrá las propiedades "id" y "name", pues ese tipo de dato es que el se enviará como respuesta al cliente.
 
 * Se envía, finalmente, el status code 200, indicando que la solicitud fue procesada correctamente, y posteriormente se envía el arreglo de datos.
   
