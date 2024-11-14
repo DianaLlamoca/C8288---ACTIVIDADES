@@ -62,3 +62,7 @@ Realizo una redirección a "/redireccion", mediante .redirect y pasando por par�
 # CÓDIGOS DE ESTADO Y ENCADENAMIENTO DE MÉTODOS
 Se pueden encadenar métodos. Por ejemplo, primero se puede enviar el código de estado y posteriormente establecer como header el tipo de respuesta que el servidor brindará al cliente:
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I15.JPG)
+
+=======
+
+# Enviando archivos
