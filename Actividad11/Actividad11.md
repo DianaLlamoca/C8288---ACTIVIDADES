@@ -84,7 +84,7 @@ Dentro de este archivo, se realizará lo siguiente:
 * Se define la interfaz para definir la estructura que deben tener los "props" que recibirá el componente Weather.
 * Dentro del componente, se usarán los hooks useState y useEffect. useEffect se usará para establecer un contador, dicho contador se actualizará cada que se haga click sobre el h1 elemento mediante la función setcount.
 * El hook useEffect se implementará para que al renderizarse por primera vez la página, la variable "count" (que inicialmente es cero) se actualice al valor de 1.
-* El componente retorna un JSX que tiene elementos <h1>, de tal forma que al dar click sobre ese elemento se actualizará la variable "count" agregándole +1 al valor. Además, se mostrará el valor "weather" de la prop que se le pasa al componente mediante return (<WeatherComponent weather="sunny"/>.
+* El componente retorna un JSX que tiene elementos <h1>, de tal forma que al dar click sobre ese elemento se actualizará la variable "count" agregándole +1 al valor. Además, se mostrará el valor "weather" de la prop que se le pasa al componente mediante return (<WeatherComponent weather="sunny"/>).
 * Finalmente, se exporta el componente para poder visualizar la página.
 
   ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_11.JPG)
