@@ -88,3 +88,13 @@ Dentro de este archivo, se realizará lo siguiente:
 * Finalmente, se exporta el componente para poder visualizar la página.
 
   ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_11.JPG)
+
+====
+
+Así, para acceder a la página, se usa la ruta "/components/weather":
+
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11_12.JPG)
+
+Al clickear sobre el texto representado mediante el elemento "h1", la variable "count" se actualizará y ello se reflejará en la página:
+
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11_13.JPG)
