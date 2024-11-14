@@ -9,7 +9,9 @@ Luego, en el endpoint principal del servidor ("/"), se renderizará la plantilla
 -------
 
 # 2) Rutas estáticas
+
 Definiendo rutas estáticas:
+
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I3.JPG)
 
 Con .json() se está enviando una respuesta al cliente, donde se está estableciendo que el contenido de la response que está enviando el servidor al cliente está en formato json.
@@ -18,7 +20,9 @@ Con .json() se está enviando una respuesta al cliente, donde se está estableci
 -------
 
 # 3) Rutas dinámicas
+
 Definiendo rutas dinámicas:
+
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I5.JPG)
 
 Para acceder a los parámetros de rutas, uso req.params. "params" es un objeto, cuyos valores dependerán de los valores que se ingresen en la ruta dinámica.
@@ -37,7 +41,9 @@ Como el parámetro es opcional, y es un parámetro de ruta, se accede a dicho va
 -------
 
 # 5) Parámetros de consulta
+
 Definiendo parámetros de consulta:
+
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I10_.JPG)
 
 Los parámetros de consulta se definen luego de "?" en la URL:
@@ -54,18 +60,23 @@ Al definir "Content-Type","text/html" se está estableciendo que la respuesta de
 ========
 
 # REDIRECCIONES
+
 Realizo una redirección a "/redireccion", mediante .redirect y pasando por parámetro la ruta relativa:
+
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I14.JPG)
 
 =======
 
 # CÓDIGOS DE ESTADO Y ENCADENAMIENTO DE MÉTODOS
+
 Se pueden encadenar métodos. Por ejemplo, primero se puede enviar el código de estado y posteriormente establecer como header el tipo de respuesta que el servidor brindará al cliente:
+
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I15.JPG)
 
 =======
 
 # Enviando archivos
+
 Para enviar archivos, se debe hacer uso del comando .sendFile.
 En este caso, al dirigirse al endpoint "/enviar_archivo", enviaré un archivo html.
 Uso "__dirname" para obtener la ruta del directorio más el nombre del archivo que voy a enviar.
