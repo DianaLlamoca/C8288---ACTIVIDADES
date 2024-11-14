@@ -23,3 +23,12 @@ Definiendo rutas dinámicas:
 
 Para acceder a los parámetros de rutas, uso req.params. "params" es un objeto, cuyos valores dependerán de los valores que se ingresen en la ruta dinámica.
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I6.JPG)
+
+-------
+
+# 4) Parámetros opcionales
+Definiendo parámetros opcionales:
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I7.JPG)
+
+Como el parámetro es opcional, y es un parámetro de ruta, se accede a dicho valor usando ".params". Sin embargo, uso "if" para verificar si existe o no dicho parámetro y en base a ello enviar una respuesta.
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I8.JPG)
