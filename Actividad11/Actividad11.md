@@ -9,6 +9,7 @@ Si bien se indica inicialmente que se debe crear un archivo "custom.d.ts" en la 
 
 # 2) CREANDO LAS RUTAS DE API
 ## Para la ruta "api/names"
+
 Dentro de esta ruta, se creará un archivo "names.ts":
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A11_2.JPG)
 
