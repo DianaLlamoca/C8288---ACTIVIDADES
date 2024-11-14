@@ -46,3 +46,7 @@ Los parámetros de consulta se definen luego de "?" en la URL:
 ========
 
 # GESTIÓN DE ENCABEZADOS
+Al definir "Content-Type","text/html" se está estableciendo que la respuesta del servidor será un documento html:
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I12.JPG)
+
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I13.JPG)
