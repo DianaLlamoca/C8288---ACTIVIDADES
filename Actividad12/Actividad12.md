@@ -33,3 +33,12 @@ Definiendo parámetros opcionales:
 Como el parámetro es opcional, y es un parámetro de ruta, se accede a dicho valor usando ".params". Sin embargo, uso "if" para verificar si existe o no dicho parámetro y en base a ello enviar una respuesta.
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I8.JPG)
+
+-------
+
+# 5) Parámetros de consulta
+Definiendo parámetros de consulta:
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I10.JPG)
+
+Los parámetros de consulta se definen luego de "?" en la URL:
+![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11.JPG)
