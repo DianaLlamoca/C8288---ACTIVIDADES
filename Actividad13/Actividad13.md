@@ -78,3 +78,5 @@ Finalmente, hago una consulta para obtener la data que tiene el zip:96826:
 
 
 
+====
+# Nota: En el directorio de la actividad13 añadí los archivos que contienen los códigos correspondientes. 
