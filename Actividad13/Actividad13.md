@@ -1,5 +1,6 @@
 # Creando el schema:
 Se crea el directorio graphql, y allí se define el schema:
+
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A13_1.JPG)
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A13_2.JPG)
