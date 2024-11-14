@@ -67,8 +67,7 @@ Finalmente, se inicia el servidor y se crea el handler de la API en el único en
 
 # Usando el sandbox de Apollo
 
-Ahora, al ingresar a http://localhost:3000/api/graphql, se abrirá automáticamente la interfaz
-sandbox de Apollo y pode realizar las consultas a la API:
+Ahora, al ingresar a http://localhost:3000/api/graphql, se abrirá automáticamente la interfaz sandbox de Apollo y se puedan realizar las consultas a la API:
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A13_7.JPG)
 
