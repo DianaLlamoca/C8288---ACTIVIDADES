@@ -98,3 +98,7 @@ Así, para acceder a la página, se usa la ruta "/components/weather":
 Al clickear sobre el texto representado mediante el elemento "h1", la variable "count" se actualizará y ello se reflejará en la página:
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/I11_13.JPG)
+
+=====
+
+# Nota: En el directorio de la actividad11 añadí los archivos que contienen los códigos correspondientes. 
