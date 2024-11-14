@@ -20,9 +20,9 @@ Dentro de este archivo, se realizará lo siguiente:
   
 * Se define el tipo "responseItemType", que servirá para definir el tipo de respuesta de cada elemento del arreglo de objetos que enviará el servidor al cliente.
 
-* Dentro de la función handler (que es la que manejará la solicitud del cliente), se está realizando una solicitud usando el método "GET" mediante "fetch(url)", ya que al no especificarse el método explícitamente, se sobreentiende que es GET.
+* Dentro de la función handler (que es la que manejará la solicitud del cliente), se está realizando una solicitud usando el método "GET" a la url definida en el código mediante "fetch(url)", ya que al no especificarse el método explícitamente, se sobreentiende que es GET.
 
-* Luego, una vez que se obtiene una respuesta la solicitud del cliente, se obtiene la response en formato "json" y se usa aserción de tipo para asegurarnos de que la respuesta sea del tipo esperado.
+* Luego, una vez que se obtiene una respuesta a la solicitud del cliente, se obtiene la response en formato "json" y se usa aserción de tipo para asegurarnos de que la respuesta sea del tipo esperado.
 
 * En caso haya un error por parte del servidor al momento de realizar la solicitud. se enviará el código 500 como respuesta al cliente; de lo contrario, se procede a crear un arreglo de objetos "names" donde cada elemento tendrá las propiedades "id" y "name", pues ese tipo de dato es que el se enviará como respuesta al servidor.
 
