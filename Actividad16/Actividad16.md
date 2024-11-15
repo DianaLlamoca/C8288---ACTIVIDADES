@@ -55,7 +55,7 @@ curl -i \
 &client_id=<OAUTH_CLIENT_ID>\
 &client_secret=<OAUTH_CLIENT_SECRET>"
 
-Y obtuve como respuesta lo siguiente:
+Donde tuve que reemplazar los placesholders <AUTHORIZATION_GRANT>, <OAUTH_CLIENT_ID> y <OAUTH_CLIENT_SECRET> que obtuve al realizar las solicitudes mediante el comando curl. Y obtuve como respuesta lo siguiente:
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A16_4.JPG)
 
