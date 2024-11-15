@@ -92,8 +92,12 @@ Se llama a la función updateOne de mongoose en el modelo, pasándole un objeto 
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A14_13.JPG)
 
-
 =====
+
+# En lo anterior solamente estoy mostrando la manera en cómo se crearon los archivos de la lectura "MongoDB y Mongoose", ya que se deben exportar las funciones creadas en esa lectura para la actividad 14
+
+======
+# ACTIVIDAD 14
 
 # Conectando a la base de datos
 
