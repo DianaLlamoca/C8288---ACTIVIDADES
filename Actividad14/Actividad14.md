@@ -120,3 +120,8 @@ La modificación es que se reemplazó la funcionalidad del "array.filter" con lo
 Finalmente, se puede visitar la ruta http://localhost:3000/api/graphql para leer documentos desde la base de datos MongoDB
 
 ![](https://github.com/DianaLlamoca/C8288---ACTIVIDADES/blob/main/Imagenes/A14_17.JPG)
+
+
+
+====
+# Nota: En el directorio de la actividad14 añadí los archivos que contienen los códigos correspondientes. 
