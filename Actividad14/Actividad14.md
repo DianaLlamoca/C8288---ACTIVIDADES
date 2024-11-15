@@ -10,7 +10,7 @@ Se creará el esquema para definir la estructura de los datos de la base de dato
 
 # Creando la interfaz
 
-Sin embargo, antes de escribir el modelo y esquema de Mongoose, se declarará uan interfaz, ya que sin dicha interfaz, no se podrá tipar el modelo para TSC y el código no compilará-
+Sin embargo, antes de escribir el modelo y esquema de Mongoose, se declarará una interfaz, ya que sin dicha interfaz, no se podrá tipar el modelo para TSC y el código no compilará-
 
 Para ello, se creará un archivo interface.ts dentro de /mongoose/weather donde se declarará la interfaz:
 
